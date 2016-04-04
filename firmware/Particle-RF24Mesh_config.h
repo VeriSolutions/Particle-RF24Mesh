@@ -1,5 +1,5 @@
-#ifndef __RF24MESH_CONFIG_H__
-#define __RF24MESH_CONFIG_H__
+#ifndef __PARTICLE-RF24MESH_CONFIG_H__
+#define __PARTICLE-RF24MESH_CONFIG_H__
 
 /*** User Configuration ***/
 #define MESH_MAX_CHILDREN 4 /** Set 1 to 4 (Default: 4) Restricts the maximum children per node. **/
