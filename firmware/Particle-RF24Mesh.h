@@ -31,7 +31,7 @@
 #endif
 
 
-#include "RF24Mesh_config.h"
+#include "Particle-RF24Mesh_config.h"
 
 #if defined (__linux) && !defined(__ARDUINO_X86__)
   #include <RF24/RF24.h>
