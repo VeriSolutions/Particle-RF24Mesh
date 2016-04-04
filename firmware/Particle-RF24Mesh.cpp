@@ -1,6 +1,6 @@
 #include "application.h"
-#include "RF24Mesh.h"
-#include "RF24Mesh_config.h"
+#include "Particle-RF24Mesh.h"
+#include "Particle-RF24Mesh_config.h"
 #if defined (__linux) && !defined(__ARDUINO_X86__)
 #include <fstream>
 #endif

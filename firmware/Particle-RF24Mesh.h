@@ -1,5 +1,5 @@
-#ifndef __PARTICLE-RF24MESH_H__
-#define __PARTICLE-RF24MESH_H__
+#ifndef __RF24MESH_H__
+#define __RF24MESH_H__
 
 #include <stdio.h>
 #include <stdlib.h>
