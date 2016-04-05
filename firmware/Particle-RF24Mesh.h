@@ -27,19 +27,19 @@
  */
 
 #if defined (__AVR_ATtiny85__) || defined (__AVR_ATtiny84__)
-	#define RF24_TINY
+  #define RF24_TINY
 #endif
 
 
-#include "Particle-RF24Mesh_config.h"
+#include "RF24Mesh_config.h"
 
 #if defined (__linux) && !defined(__ARDUINO_X86__)
   #include <RF24/RF24.h>
   #include <RF24Network/RF24Network.h>
   #define RF24_LINUX
 #else
-  #include <particle-rf24/particle-rf24.h>
-  #include <Particle-RF24Network/Particle-RF24Network.h>
+  #include <RF24.h>
+  #include <RF24Network.h>
 #endif
 
   #include <stddef.h>
@@ -235,8 +235,8 @@ public:
   
 #if !defined RF24TINY  
   typedef struct{
-	uint8_t nodeID;       /**< NodeIDs and addresses are stored in the addrList array using this structure */
-	uint16_t address;  /**< NodeIDs and addresses are stored in the addrList array using this structure */
+  uint8_t nodeID;       /**< NodeIDs and addresses are stored in the addrList array using this structure */
+  uint16_t address;  /**< NodeIDs and addresses are stored in the addrList array using this structure */
   }addrListStruct;
   
   // Pointer used for dynamic memory allocation of address list
