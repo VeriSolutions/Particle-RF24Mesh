@@ -2,6 +2,6 @@
   "name": "Particle-RF24Mesh",
   "author": "Stan Kazanskiy <stan.kazanskiy@gmail.com>",
   "license": "GNU GENERAL PUBLIC LICENSE",
-  "version": "0.0.8",
+  "version": "0.0.9",
   "description": "An implementation of TMRh20's optimized RF24Mesh Library for the Particle Photon."
 }
