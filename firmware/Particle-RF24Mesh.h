@@ -38,8 +38,8 @@
   #include <RF24Network/RF24Network.h>
   #define RF24_LINUX
 #else
-  #include <particle-rf24.h>
-  #include <Particle-RF24Network.h>
+  #include <particle-rf24/particle-rf24.h>
+  #include <Particle-RF24Network/Particle-RF24Network.h>
 #endif
 
   #include <stddef.h>
